@@ -1,0 +1,150 @@
+.nav-color{
+    background-color: #212529;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.space-lg{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.bg-gradient{
+    background: linear-gradient(135deg, #6f42c1 0%, #4582EC 100%) !important;
+}
+
+.mb-md-0{
+    margin-bottom: 0 !important;
+}
+
+.display-4{
+    margin-bottom: 1.5rem;
+    font-family: inherit;
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.lead{
+    margin-bottom: 1.5rem;
+    line-height: 1.875rem;
+    display: block;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.card-img-top{
+    width: 476.5px;
+    height: 476.5px;
+}
+
+.card-footer{
+    width: 476px;
+    height: 24px;
+
+    
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.title-decorative {
+    font-size: 0.875rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    color: #adb5bd !important;
+    margin-bottom: 0.75rem !important;
+    display: block !important;
+    font-weight: 500 !important;
+}
+
+
+.h2-main{
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #343a40;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**btn-banner**/
+.btn{
+    text-decoration: none;
+    display: inline-block ;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-success{
+    color: #fff;
+    background-color: #02B875;
+    border-color: #02B875;
+}
+
+
+.btn-lg{
+    padding: 0.6875rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+/**icon**/
+.gg-chevron-right {
+   
+   
+    display: inline-block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-radius: 100px;
+}
+.gg-chevron-right::before {
+   
+    content: "";
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(-45deg);
+    right: 2px;
+    top: 6px
+ }
+/**link gray hover**/
+ a.btn-link:hover{
+    color: gray !important;
+ }
