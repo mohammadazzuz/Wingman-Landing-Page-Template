@@ -1,10 +1,17 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+
+}
+
 .nav-color{
     background-color: #212529;
 }
+/**
 .overflow-hidden{
     overflow: hidden;
 }
-
+**/
 .space-lg{
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
@@ -13,11 +20,11 @@
 .bg-gradient{
     background: linear-gradient(135deg, #6f42c1 0%, #4582EC 100%) !important;
 }
-
+/**
 .mb-md-0{
     margin-bottom: 0 !important;
 }
-
+**/
 .display-4{
     margin-bottom: 1.5rem;
     font-family: inherit;
@@ -34,25 +41,15 @@
     font-size: 1.25rem;
 }
 
-.card-img-top{
-    width: 476.5px;
-    height: 476.5px;
+.text-card{
+    color: #495057;
 }
 
-.card-footer{
-    width: 476px;
-    height: 24px;
 
-    
-}
 
-.justify-content-between {
-    justify-content: space-between !important;
-}
 
-.d-flex {
-    display: flex !important;
-}
+
+
 
 .title-decorative {
     font-size: 0.875rem !important;
@@ -70,6 +67,9 @@
     font-weight: 400;
     color: #343a40;
 }
+a{
+    text-decoration: none;
+}
 
 
 
@@ -93,7 +93,6 @@
 
 
 
-/**btn-banner**/
 .btn{
     text-decoration: none;
     display: inline-block ;
@@ -101,7 +100,7 @@
     text-align: center;
     vertical-align: middle;
     user-select: none;
-    background-color: transparent;
+    
     border: 1px solid transparent;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -119,6 +118,7 @@
     line-height: 1.5;
     border-radius: 0.25rem;
 }
+
 /**icon**/
 .gg-chevron-right {
    
@@ -146,5 +146,76 @@
  }
 /**link gray hover**/
  a.btn-link:hover{
-    color: gray !important;
+    color: #c8cbce !important;
  }
+
+
+
+section{
+    padding: 3rem 0;
+    position: relative;
+    display: block;   
+}
+
+.section-intro{
+    margin-bottom: 3rem;
+}
+
+ .feature-list{
+    padding-left: 0;
+    list-style: none;
+ }
+
+ .card{
+    margin-bottom: 1.5rem;
+  }
+
+
+  /**section 2**/
+
+  .text-md-left {
+    text-align: left !important;
+}
+
+.h1{
+    font-weight: 400;
+    line-height: 2;
+}
+
+
+.flush-white-above{
+    border-top: none !important;
+    padding-top: 0;
+}
+
+
+/** avatar **/
+
+.media{
+    display: flex;
+    align-items: flex-start;
+}
+
+.avatar:first-child{
+    margin-right: 1.5rem;
+}
+
+.avatar.avatar-lg{
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+.media-body {
+    flex: 1;
+}
