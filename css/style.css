@@ -301,3 +301,35 @@ img{
         color: #fff;
     }
     
+
+
+    .footer-long {
+        font-size: .875rem;
+        padding: 4.5rem 0 7.5rem 0; }
+        .footer-long .h5 {
+          margin-bottom: 3rem; }
+      
+      @media (max-width: 991.98px) {
+        .footer-long {
+          padding: 3rem 0; } }
+      
+      @media (max-width: 575.98px) {
+        .footer-long .h5 {
+          margin-top: 1.5rem;
+          margin-bottom: 1.5rem; } }
+
+
+          .footer-short {
+            padding-bottom: 1.5rem; }
+            .footer-short hr {
+              margin: 0; }
+            .footer-short nav {
+              padding-top: 1.5rem;
+              margin-bottom: 0.75rem; }
+            .footer-short small {
+              color: #adb5bd; }
+            .footer-short .list-inline-item a {
+              color: #adb5bd;
+              transition: color .2s ease; }
+              .footer-short .list-inline-item a:hover {
+                color: #495057; }
